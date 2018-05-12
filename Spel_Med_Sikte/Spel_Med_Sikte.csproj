@@ -45,12 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Game_Boss_Hitler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,30 +57,15 @@
     <Compile Include="Game_Session.Designer.cs">
       <DependentUpon>Game_Session.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gif_Class.cs" />
     <Compile Include="Meny.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Meny.Designer.cs">
       <DependentUpon>Meny.cs</DependentUpon>
     </Compile>
-    <Compile Include="Måltavla.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Show_Gif_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Show_Gif_Form.Designer.cs">
-      <DependentUpon>Show_Gif_Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sikte.cs" />
-    <Compile Include="SS_Dog.cs" />
     <Compile Include="SS_Enemies.cs" />
-    <Compile Include="SS_Guard.cs" />
-    <Compile Include="SS_Soldier.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Game_Boss_Hitler.resx">
       <DependentUpon>Game_Boss_Hitler.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,9 +85,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Show_Gif_Form.resx">
-      <DependentUpon>Show_Gif_Form.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -130,6 +106,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GunAim100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animated_Guard_Wolfenstein_3D.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animated_Dog_Wolfenstein_3D.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dead_Guard_Wolfenstein_3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adolf Hitler Wolfenstein Gif - Alive2.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

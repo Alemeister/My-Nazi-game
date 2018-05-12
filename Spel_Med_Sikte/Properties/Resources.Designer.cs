@@ -63,9 +63,49 @@ namespace Spel_Med_Sikte.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adolf_Hitler_Wolfenstein_Gif___Alive2 {
+            get {
+                object obj = ResourceManager.GetObject("Adolf_Hitler_Wolfenstein_Gif___Alive2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Animated_Dog_Wolfenstein_3D {
+            get {
+                object obj = ResourceManager.GetObject("Animated_Dog_Wolfenstein_3D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Animated_Guard_Wolfenstein_3D {
+            get {
+                object obj = ResourceManager.GetObject("Animated_Guard_Wolfenstein_3D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Animated_SS_Wolfenstein_3D {
             get {
                 object obj = ResourceManager.GetObject("Animated_SS_Wolfenstein_3D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dead_Guard_Wolfenstein_3D {
+            get {
+                object obj = ResourceManager.GetObject("Dead_Guard_Wolfenstein_3D", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

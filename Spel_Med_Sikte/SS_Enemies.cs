@@ -45,8 +45,6 @@ namespace Spel_Med_Sikte
 
     class SS_Dog : SS_Enemies
     {
-        private string filePath = @"C:\Users\Alemeister\source\repos\Spel_Med_Sikte\Animated_Dog_Wolfenstein_3D.gif";
-
         public SS_Dog()
         {
             LoadImages();
@@ -54,7 +52,7 @@ namespace Spel_Med_Sikte
 
         public override void LoadImages()
         {
-            ss_enemy_Image = Image.FromFile(filePath);
+            ss_enemy_Image = Properties.Resources.Animated_Dog_Wolfenstein_3D;
         }
 
         public override Image SS_enemy_Image
@@ -66,9 +64,7 @@ namespace Spel_Med_Sikte
 
     class SS_Guard : SS_Enemies
     {
-        private string filePath = @"C:\Users\Alemeister\source\repos\Spel_Med_Sikte\Animated_Guard_Wolfenstein_3D.gif";
         private Image dead_ss_guard;
-        private string filePath_dead_ss_guard = @"C:\Users\Alemeister\source\repos\Spel_Med_Sikte\Dead_Guard_Wolfenstein_3D.png";
         private int death_time_counter = 6;
 
         public SS_Guard()
@@ -90,8 +86,8 @@ namespace Spel_Med_Sikte
 
         public override void LoadImages()
         {
-            ss_enemy_Image = Image.FromFile(filePath);
-            dead_ss_guard = Image.FromFile(filePath_dead_ss_guard);
+            ss_enemy_Image = Properties.Resources.Animated_Guard_Wolfenstein_3D;
+            dead_ss_guard = Properties.Resources.Dead_Guard_Wolfenstein_3D;
         }
 
         public override Image SS_enemy_Image
@@ -103,8 +99,6 @@ namespace Spel_Med_Sikte
 
     class SS_Soldier : SS_Enemies
     {
-        private string filePath = @"C:\Users\Alemeister\source\repos\Spel_Med_Sikte\Animated_SS_Wolfenstein_3D.gif";
-
         public SS_Soldier()
         {
             LoadImages();
@@ -112,7 +106,7 @@ namespace Spel_Med_Sikte
 
         public override void LoadImages()
         {
-            ss_enemy_Image = Image.FromFile(filePath);
+            ss_enemy_Image = Properties.Resources.Animated_SS_Wolfenstein_3D;
         }
 
         public override Image SS_enemy_Image
@@ -124,8 +118,6 @@ namespace Spel_Med_Sikte
 
     class SS_Hitler_Boss : SS_Enemies
     {
-        private string filePath = @"C:\Users\Alemeister\source\repos\Spel_Med_Sikte\Adolf Hitler Wolfenstein Gif - Alive2.gif";
-
         public SS_Hitler_Boss()
         {
             LoadImages();
@@ -133,7 +125,7 @@ namespace Spel_Med_Sikte
 
         public override void LoadImages()
         {
-            ss_enemy_Image = Image.FromFile(filePath);
+            ss_enemy_Image = Properties.Resources.Adolf_Hitler_Wolfenstein_Gif___Alive2;
         }
 
         public override Image SS_enemy_Image
